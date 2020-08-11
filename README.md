@@ -7,7 +7,7 @@
 ```sh
 composer install
 ```
-4. Run server on your desired port
+3. Run server on your desired port
 ```JS
 php -S 127.0.0.1:8000 -t public
 ```
