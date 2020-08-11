@@ -1,0 +1,6 @@
+{
+	"f2a9da30387a91163806": "Soft Drinks",
+	"f2a9da30387a91163807": "Appetizer",
+	"f2a9da30387a91163808": "Meal",
+	"f2a9da30387a91163809": "Dessert "
+}
