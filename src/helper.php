@@ -30,7 +30,7 @@ class Helper {
         return array('total' => $count, 'values' => $values);
     }
 
-
+    // search if a key is exist in articles
     public function searchKey($search_key, $arr){
 
 
@@ -43,7 +43,8 @@ class Helper {
         }
     }
 
-
+    //respnses 
+    
     public function okResponse($responseJson)
     {   
         $response['status_code_header'] = 'HTTP/1.1 200 OK';

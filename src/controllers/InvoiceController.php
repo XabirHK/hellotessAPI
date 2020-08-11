@@ -36,7 +36,7 @@ class InvoiceController extends Helper{
         $this->invoiceModel = new InvoiceModel();
     }
 
-    
+    // validate request method
     public function processRequest()
     {
         switch ($this->requestMethod) {
@@ -57,7 +57,7 @@ class InvoiceController extends Helper{
 
 
     
-
+    // reformate the json to the spec
     private function reformateInput(){
 
 

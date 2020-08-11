@@ -3,13 +3,25 @@ namespace src\models;
 
 use Src\Helper;
 
+/**
+   * InvoiceModel
+   * 
+   * 
+   * @package    Src
+   * @subpackage Controller
+   * @author     Zabir
+   * 
+   * get the articlegroup name from arbitary URI
+   */
+
+
 class InvoiceModel extends Helper{
 
 
     public function getArticleName($id)
     {
         //set api url
-        $url = "http://127.0.0.1:7000/v1/article-group/".$id;
+        $url = "http://127.0.0.1:7000/v1/article-group/";
 
         //call api
         $json = file_get_contents($url);
